@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Omkar Parab
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="leftbar leftbargo">
+        <nav>
+            <ul>
+                <li><a href="/"><b>Home</b></a></li>
+                <li><a href="/intro.html"><b>My Intro</b></a></li>
+                <li><a href="/contact.html"><b>Contact Me</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+      <img class="ham" src="images/hamburger.png" alt="" width="25"></img>
+        <img class="cross" src="images/cross.png" alt="" width="25"></img>
+       <div class="contactform">
+           <h1><u>Contact me for General Enquiries</u></h1>
+        <form action="/myform.php" name="form" onsubmit="validate()" method="post">
+
+            <div class="form1" id="name">
+              Name<input type="text" name="fname" required>
+              <span class="error"></span>
+            </div>
+
+            <div class="form1" id="email">
+              Email Address<input type="email" aria-describedby="emailHelp" required>
+              <span class="error"></span>
+            </div>
+
+            <div class="form1" id="mobile">
+              Mobile Number<input type="mobile" required>
+              <span class="error"></span>
+              <div id="emailHelp" class="form-text">We'll never share your contact details with anyone else.</div>
+            </div>
+
+            <div class="form1" id="enquiry">
+              Enquiry<input type="enquiry" aria-describedby="emailHelp">
+              <span class="error"></span>
+            </div>
+
+            <div class="form1" id="form-check">
+              <input type="checkbox" class="form-check-input" id="isclient">
+              <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+            </div>
+
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </form>
+       </div>       
+    </div>
+    </div>
+</body>
+<script src="index.js"></script>     
+</html>

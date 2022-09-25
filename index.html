@@ -2,34 +2,40 @@
 <html>
 <head>
     <title>
-        Omkar Parab - Programmer
+        Omkar Parab 
     </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-    <div class="sidebar">
+    <div class="leftbar leftbargo">
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Intro</li>
-                <li>Services</li>
-                <li>CV</li>
-                <li>Blog</li>
+                <li><a href="/"><b>Home</b></a></li>
+                <li><a href="/intro.html"><b>My Intro</b></a></li>
+                <li><a href="/contact.html"><b>Contact Me</b></a></li>
             </ul>
         </nav>
     </div>
     <div class="main">
-        <div class="infoContainer">
-            <div class="devInfo"> 
-                <div class="hello">
-            Myself Omkar Parab, a student of Dwarkadas J. Sanghavi College Of Engineering. 
-            I am currently pursuing B.Tech degree in Computer Engineering.
-        </div>
-        <div class="devPic"></div>
-        </div>
+        <img class="ham" src="images/hamburger.png" alt="" width="25"></img>
+        <img class="cross" src="images/cross.png" alt="" width="25"></img>
+        <div class="infocontainer">
+            <div class="info"> 
+                <div class="hello">Hello, I am</div>
+                <div class="name">Omkar Parab</div>
+                <div class="about">Programmer</div>
+                <div class="buttons">
+                <a href="images/Resume.pdf" target="_blank">
+                    <button class="btn">Download CV</button></a>
+                <a href="/contact.html">
+                    <button class="btn">Contace Me</button></a>
+                </div> 
+            </div>
+            <div class="pic"><img src="images/image.jpg" alt="Omkar Parab"></div>
         </div>       
     </div>
     </div>
-</body>    
+</body>  
+<script src="index.js"></script> 
 </html>
