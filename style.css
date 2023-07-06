@@ -3,7 +3,7 @@
     padding: 0;
 }
 .leftbar{
-    background-color: grey;
+    background-color: aqua;
     height: 100vh;
     transition: transform 0.3s ease-in;
     position: absolute;
@@ -21,14 +21,12 @@
     color: black;
 }
 .main{
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
     color: white;
     padding: 23px;
 }
 .container{
-    display: flex;
+    background-image: url("images/pattern.png");
+    background-size: cover;
 }
 .infocontainer{
     background-color:rgb(70, 64, 64);
@@ -47,13 +45,19 @@
 }
 .hello{
     font-size: 60px;
+    margin-left: 40px;
 }
 .name{
+    margin-left: 40px;
     font-size: 50px;
     font-weight: bold;
 }
 .about{
+    margin-left: 40px;
     font-size: 40px;
+}
+.back{
+    opacity: 0.3;
 }
 .buttons{
     margin: 34px;
@@ -80,29 +84,34 @@
     color: dodgerblue;
 }
 .pic img{
-    height: 58vh;
+    height: 68%;
+    margin: 20px auto;
+    border-radius: 100%;
 }
 .contactform{
     padding: 0 200px;
     padding-top: 60px;
+    line-height: 2;
 }
 .contactform h1{
     padding: 12px 0;
+    font-size: xx-large;
 }
 .contactform form div{
-    padding: 10px 0;
+    padding: 11px 0;
     display: flex;
     flex-direction: column;
 }
 .contactform form div input{
-    width: 26vw;
+    height: 3vh;
+    width: 30vw;
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
 }
 #emailHelp{
     font-size: 11px;
-    color: grey;
+    color: black;
     margin: 0 5px;
     padding: 3px 0;
 }
@@ -115,16 +124,38 @@
 }
 h1{
     margin: 23px;
-    color: rgb(216, 12, 182);
+    color: black;
 }
 .intro h2{
     margin: 30px;
     font-size: 40px;
-    color: rgb(216, 12, 182);
+    color: black;
 }
-.intro p{
-    margin: 12px;
-    font-size: 30px;
+.intro{
+    margin-left: 300px;
+    font-size: x-large;
+}
+.skill-row{
+    width: 50%;
+    margin: 0 auto 100px auto;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+.web{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.dsa{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.ros{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 .skillcontainer{
     padding: 12px;
@@ -138,15 +169,10 @@ h1{
 .skill{
     width: 250px;
     height: 15px;
-    border: 2px solid rgb(216, 12, 182) ;
+    border: 2px solid black ;
 }
-.fifty{
-    width: 125px;
-    background-color: aqua;
-}
-.thirty{
-    width: 75px;
-    background-color: aqua;
+.skills h2{
+    padding-top: 50px;
 }
 .leftbargo{
     transform: translate(-434px, 0px);
@@ -158,16 +184,29 @@ h1{
     top: 31px;
     left: 10px;
 }
-.cross{
-    cursor: pointer;
-    margin-left: -55px;
-    margin-top: 10px;
-}
 .error{
     color: red;
 }
-@media (max-width:500px){
-.infocontainer{
-    height: 68vh;
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 0 auto 50px auto;
+    color: black;
+    font-weight: normal;
+    font-weight: bold;
+    margin-left: 600px;
 }
+h3{
+    font-family:'Montserrat', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+p{
+    line-height: 2;
+    margin-bottom: 5%;
+    font-size: x-large;
+    color: black;
+}
+.form1{
+    color: black;
 }
